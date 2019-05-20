@@ -4,7 +4,7 @@
 public class Factory {
   Products products;
   boolean isTheProduct = false;
-  int wheels;
+  int wheels = 0;
   String brand;
 
   Factory() {

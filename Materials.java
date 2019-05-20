@@ -2,26 +2,21 @@
  * Materials
  */
 public class Materials {
-  int weights;
-  String materials;
-  String materials2;
 
-  Materials(String name) {
-    if (name == " bicycle") {
-      this.materials = "rubber";
-      this.weights = 100;
-      this.materials2 = "aluminum";
-      this.weights = 100;
-    }
+  private String product;
+  private String materials;
+  private int weights;
+
+  Materials(String product, String materials, int weights) {
+    this.product = product;
+    this.materials = materials;
+    this.weights = weights;
   }
 
-  // Rubber(){
-
-  // }
-
-  // Aluminium(int weights){
-  // this.materials = "aluminum";
-  // this.weights = 100;
-  // this.requiredWeights = weights;
-  // }
+  public static void main(String[] args) {
+    Materials material = new Materials("bicycle", "rubber", 2);
+    Materials material2 = new Materials("bicycle", "aluminum", 5);
+    Materials material3 = new Materials("tricycle", "aluminum", 3);
+    Materials material4 = new Materials("tricycle", "aluminum", 6);
+  }
 }
