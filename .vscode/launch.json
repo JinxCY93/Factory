@@ -1,0 +1,38 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Debug (Launch) - Current File",
+      "request": "launch",
+      "mainClass": "${file}"
+    },
+    {
+      "type": "java",
+      "name": "Debug (Launch)-Factory",
+      "request": "launch",
+      "mainClass": "Factory"
+    },
+    {
+      "type": "java",
+      "name": "Debug (Launch)-Machines",
+      "request": "launch",
+      "mainClass": "Machines"
+    },
+    {
+      "type": "java",
+      "name": "Debug (Launch)-Products",
+      "request": "launch",
+      "mainClass": "Products"
+    },
+    {
+      "type": "java",
+      "name": "Debug (Launch)-Staff",
+      "request": "launch",
+      "mainClass": "Staff"
+    }
+  ]
+}
