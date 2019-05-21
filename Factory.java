@@ -24,8 +24,9 @@ public class Factory {
     }
   }
 
-  void allocatingMaterials() {
-
+  void allocatingMaterials(String pname) {
+    Materials materials = new Materials();
+    materials.Materials(pname);
   }
 
   void inspectProduct() {
@@ -36,6 +37,7 @@ public class Factory {
     Products product = new Products();
     Factory factory = new Factory();
     factory.creatingBicycle("bicycle");
+    material.allocatingMaterials("bicycle");
 
     // ===== Step 1 ======
     // "allocating materials..."
